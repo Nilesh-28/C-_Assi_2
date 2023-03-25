@@ -1,9 +1,14 @@
-#include <iostream.h>
+#include <iostream>
+using namespace std;
 
-int main()
+int main() 
 {
+    cout << "\n\nWelcome !!!\n\n\n";
+    cout << " =====  Program to check whether a number is prime or not ===== \n\n";
+    
     int n, i, c = 0;
-    cout << "Enter any number n: "; cin>>n;
+    cout << "Enter any number n: "; 
+    cin >> n;
     for (i = 1; i <= n; i++)
     {
 	if (n % i == 0)
